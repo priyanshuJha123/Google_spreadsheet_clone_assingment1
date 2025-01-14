@@ -50,6 +50,6 @@ The **Spreadsheet Web Application** delivers a lightweight, browser-based altern
 
 ---
 
-##  **Authors** ##
-** Priyanshu Jha**
-**Contact: Priyanshujha21165@gmail.com**
+##  **Authors** 
+-** Name: Priyanshu Jha**
+-**Contact: Priyanshujha21165@gmail.com**
