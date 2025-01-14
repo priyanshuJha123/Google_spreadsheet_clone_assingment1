@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spreadsheets</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        #spreadsheet {
+            margin-top: 20px;
+            border: 1px solid black;
+            width: 1024px;
+            height: 1024px;
+        }
+
+        #selectedCellBorder,
+        #selectedRange,
+        #selectedCellFormula,
+        #textInput {
+            position: absolute;
+            
+        }
+
+        #textInput {
+            display: none;
+        }
+
+
+        .toolbar {
+            background-color: #4CAF50;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            gap: 15px;
+        }
+
+        .toolbar .menu {
+            display: flex;
+            gap: 15px;
+        }
+
+        .toolbar select, .toolbar button {
+            padding: 5px;
+        }
+
+        .formula-bar {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .formula-bar input {
+            width: 100%;
+            padding: 5px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.2.0/math.js"></script>
+</head>
+
+<body>
+
+    <div class="toolbar">
+        <div class="menu">
+            <button>Home</button>
+            <button>File</button>
+            <button>Insert</button>
+            <button>Layout</button>
+            <button>Help</button>
+        </div>
+        <div class="font-controls">
+            <select id="font-style">
+                <option value="Arial">Arial</option>
+                <option value="Verdana">Verdana</option>
+                <option value="Times New Roman">Times New Roman</option>
+            </select>
+            <select id="font-size">
+                <option value="12">12</option>
+                <option value="14">14</option>
+                <option value="16">16</option>
+            </select>
+            <button><b>B</b></button>
+            <button><i>I</i></button>
+            <button><u>U</u></button>
+        </div>
+    </div>
+
+    <!-- Formula Bar -->
+    <div class="formula-bar">
+        <!-- <label for="formula">fx</label> -->
+        <input type="text" id=" formula" placeholder="Enter formula here ">
+    </div>
+
+   
+    <canvas id="spreadsheet"></canvas>
+    <div id="selectedCellBorder"></div>
+    <div id="selectedCellFormula"></div>
+    <div id="selectedRange"></div>
+
+
+
+   
+    
+    <div contenteditable="true" id="textInput"></div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
