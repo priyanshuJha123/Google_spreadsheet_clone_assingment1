@@ -1,5 +1,5 @@
 # Google_spreadsheet_clone_assingment1
-# **Spreadsheet Web Application**
+
 
 ## **Overview**
 This project is a **browser-based spreadsheet application** designed to emulate the core functionalities of Google Sheets. The application provides a visually intuitive interface with tools for data entry, formatting, and computation. It includes **mathematical and data quality functions**, dynamic cell updates, and basic formatting features, ensuring an interactive and efficient spreadsheet experience.
@@ -49,11 +49,6 @@ This project is a **browser-based spreadsheet application** designed to emulate 
 The **Spreadsheet Web Application** delivers a lightweight, browser-based alternative to Google Sheets with essential spreadsheet functionalities. The implementation demonstrates modular and scalable code, enabling future enhancements like persistent storage, data visualization (charts and graphs), and advanced formula support. The project showcases the effective use of **modern web technologies** to create a user-friendly and functional spreadsheet tool.
 
 ---
-
-## **How to Use**
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/Spreadsheet-WebApp.git
 
 ##  **Authors** ##
 ** Priyanshu Jha**
