@@ -48,5 +48,4 @@ This project is a **browser-based spreadsheet application** designed to emulate 
 ## **Conclusion**
 The **Spreadsheet Web Application** delivers a lightweight, browser-based alternative to Google Sheets with essential spreadsheet functionalities. The implementation demonstrates modular and scalable code, enabling future enhancements like persistent storage, data visualization (charts and graphs), and advanced formula support. The project showcases the effective use of **modern web technologies** to create a user-friendly and functional spreadsheet tool.
 
----
 
